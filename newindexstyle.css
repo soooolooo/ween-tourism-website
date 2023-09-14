@@ -1,0 +1,201 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+
+    text-align: center;
+    color: white;
+    background-color: #1f1f1f;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+/* header */
+header .logo-container{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+header .navbar{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 590px;
+}
+
+header .navbar .nav{
+    width: 110px;
+    background-color: #191919;
+    margin: 0px 5px;
+    text-align: center;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    line-height: 9px;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+header .navbar .nav:hover{
+    background-color: #393939;
+    
+    font-size: 21px;
+}
+
+
+
+.nav-a{ /* places nav */
+    height: 80px;
+    background-color: bisque;
+    margin: 10px 10px;
+    display: inline-block;
+    width: 100px;
+    line-height: 15px;
+}
+
+
+main .welcome-div{ /*newindex.html*/
+    width: 100%;
+    background-color: cadetblue;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+main .places-container{
+    padding: 0px 50px;
+}
+
+main .places-container h3{
+    font-size: 50px;
+}
+
+main .places{ /*newindex.html*/
+    width: 600px;
+    padding: 50px 0;
+
+    background-image: url("gfx/m9mk.jpg");
+    background-position: center;
+    background-size: 100%;
+
+    display: inline-block;
+
+    margin: 30px;
+
+    border: 1px solid white;
+    border-radius: 20px;
+
+    font-size: 45px;
+    color: white;
+
+    transition: background-size 0.5s;
+}
+
+main .places:hover{
+    background-size: 120%;
+}
+
+main .place{ /*places in general*/
+    width: 200px;
+    background-size: 250%;
+    background-position: center;
+    border: 1px solid white;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    transition: background-size 0.5s;
+    text-shadow: 2px 2px #000000;
+}
+
+main .place:hover{
+    background-size: 300%;
+}
+
+main .aboutus .part{
+    margin: 50px 0px;
+}
+
+main .aboutus .part h3{
+    font-size: 40px;
+}
+
+main .aboutus .part h4{
+    font-size: 20px;
+}
+
+main .contactus{
+    margin: 50px auto;
+    padding: 10px 0px;
+}
+
+main .contactus .contact{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50px;
+}
+
+main .contactus .contact h3{
+    font-size: 30px;
+    color: white;
+}
+
+main .contactus .contact img{
+    width: 70px;
+    margin-bottom: -30px;
+}
+
+main .login-container{
+    font-size: 24px;
+}
+
+main .login-container .login{
+    display: inline-block;
+}
+
+main .login-container .login p{
+    text-align: left;
+}
+
+main .login-container .login input{
+    font-size: 21px;
+}
+
+main button{
+    width: 90px;
+    background-color: #191919;
+    margin: 0px auto;
+    text-align: center;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    line-height: 9px;
+    transition: background-color 0.5s, font-size 0.5s;
+}
+
+main button:hover{
+    background-color: #393939;
+    font-size: 20px;
+}
+
+main .admin-container{
+    width: 90%;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main .admin-container table{
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main .admin-container td,tr{
+    padding: 10px;
+    border-top: 1px solid white;
+    max-width: 200px;
+}
